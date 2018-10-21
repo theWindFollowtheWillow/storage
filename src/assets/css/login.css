@@ -1,0 +1,21 @@
+.login {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.login input{
+    border: 1px solid #999;
+    height: 50px;
+}
+.login input[type="button"]{
+    width: 100px;
+}
